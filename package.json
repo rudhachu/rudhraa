@@ -1,15 +1,15 @@
 {
- "name": "fxop-md",
- "version": "2.5.0",
+ "name": "rudhra-bot",
+ "version": "1.0.0",
  "description": "Simple WhatsApp Bot",
  "main": "index.js",
  "directories": {
   "lib": "lib"
  },
- "author": "FXastro",
+ "author": "princerudh",
  "scripts": {
-  "start": "pm2 start index.js --deep-monitoring --attach --name fx-md",
-  "stop": "pm2 stop fx-md"
+  "start": "pm2 start index.js --deep-monitoring --attach --name rudhra",
+  "stop": "pm2 stop rudhra"
  },
  "devDependencies": {
   "@eslint/js": "^9.4.0",
@@ -19,7 +19,7 @@
  "dependencies": {
   "@adiwajshing/keyed-db": "^0.2.4",
   "axios": "^1.7.7",
-  "baileys": "github:FXastro/baileys",
+  "baileys": "github:princerudh/Baileys.js",
   "browser-id3-writer": "^4.4.0",
   "canvas": "2.11.2",
   "cheerio": "1.0.0",
