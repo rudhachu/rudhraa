@@ -1,15 +1,15 @@
 services:
  - type: worker
-   name: fxop-md-demo
+   name: rudhra-bot
    env: docker
    plan: free
    dockerfilePath: ./Dockerfile
    envVars:
     - key: SESSION_ID
-      value: Session~
+      value: Rudhra~
     - key: BOT_INFO
-      value: ᴀsᴛʀᴏ;ғxᴏᴘ-ᴍᴅ
+      value: rudhra;rudhraan
     - key: SUDO
-      value: 2348039607375
+      value: 919895809960
     - key: ANTILINK
       value: "true"
