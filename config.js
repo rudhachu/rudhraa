@@ -8,16 +8,16 @@ module.exports = {
     process.env.HANDLER === "false" || process.env.HANDLER === "null"
       ? "^"
       : "[.]",
-  BOT_INFO: process.env.BOT_INFO || "ᴀsᴛʀᴏ;ғxᴏᴘ-ᴍᴅ", //YourName;BotName;Image/VideoLink
-  SUDO: process.env.SUDO || "2348039607375,2349162411207,4915252819677",
+  BOT_INFO: process.env.BOT_INFO || "rudhraan;rudhra-bot", //YourName;BotName;Image/VideoLink
+  SUDO: process.env.SUDO || "919895809960",
   TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   BRANCH: "master",
   WARN_COUNT: 3,
-  AUTHOR: process.env.AUTHOR || "ғxᴏᴘ-ᴍᴅ",
+  AUTHOR: process.env.AUTHOR || "rudhraan",
   ANTIWORDS: process.env.ANTIWORDS || "badword1,badword2,badword3",
-  PACKNAME: process.env.PACKNAME || "ғxᴏᴘ-ᴍᴅ",
+  PACKNAME: process.env.PACKNAME || "rudhra-bot",
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
